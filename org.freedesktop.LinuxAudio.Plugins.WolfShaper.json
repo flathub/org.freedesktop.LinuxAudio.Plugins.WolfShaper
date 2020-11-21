@@ -16,6 +16,15 @@
             "build-commands": [
                 "make BUILD_VST2=true BUILD_LV2=true BUILD_JACK=false"
             ],
+            "build-options": {
+                "arch": {
+                    "aarch64": {
+                        "env": {
+                            "NOOPT": "true"
+                        }
+                    }
+                }
+            },
             "post-install": [
                 "install -d ${FLATPAK_DEST}/lv2",
                 "cp -R bin/wolf-shaper.lv2 ${FLATPAK_DEST}/lv2/",
