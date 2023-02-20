@@ -37,8 +37,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.0/wolf-shaper-v1.0.0-source.tar.gz",
-                    "sha256": "e1a95063b6be3940890c76b39760cb002a56e93ca53e892dced88fa5f9c30285"
+                    "url": "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.1/wolf-shaper-v1.0.1-source.tar.gz",
+                    "sha256": "b045fdbcb81a9cbd1f520ecefd15b59e2855c74102c924487583c5a351fdf687"
                 },
                 {
                     "type": "file",
