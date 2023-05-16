@@ -12,6 +12,14 @@
   <update_contact>hub_AT_figuiere_net</update_contact>
   <url type="homepage">https://wolf-plugins.github.io/wolf-shaper/</url>
   <releases>
+    <release version="1.0.2" date="2023-05-14">
+      <url>https://github.com/wolf-plugins/wolf-shaper/releases/tag/v1.0.2</url>
+      <description>
+        <p>Fix an issue with the Warp parameters (in some cases,
+        modifying the warp type would appear to have no effect in the
+        user interface)</p>
+      </description>
+    </release>
     <release version="1.0.1" date="2023-02-20">
       <url>https://github.com/wolf-plugins/wolf-shaper/releases/tag/v1.0.1</url>
       <description>
