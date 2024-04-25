@@ -3,7 +3,7 @@
   <id>org.freedesktop.LinuxAudio.Plugins.WolfShaper</id>
   <extends>org.freedesktop.LinuxAudio.BaseExtension</extends>
   <name>WolfShaper</name>
-  <summary>WolfShaper LV2/VST/VST2/CLAP plugin</summary>
+  <summary>WolfShaper LV2/VST/VST3/CLAP plugin</summary>
   <description>
     <p>Wolf Shaper is a waveshaper plugin with a graph editor, in LV2, VST, VST3 and CLAP.</p>
   </description>

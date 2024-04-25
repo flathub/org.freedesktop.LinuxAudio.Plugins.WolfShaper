@@ -4,7 +4,6 @@
     "sdk": "org.freedesktop.Sdk//23.08",
     "runtime-version": "stable",
     "build-extension": true,
-    "appstream-compose": false,
     "branch": "23.08",
     "build-options": {
         "prefix": "/app/extensions/Plugins/WolfShaper"
@@ -31,8 +30,7 @@
                 "cp -R bin/wolf-shaper.vst3 ${FLATPAK_DEST}/vst3/",
                 "install -Dm755 bin/wolf-shaper.clap -t ${FLATPAK_DEST}/clap",
                 "install -Dm644 LICENSE ${FLATPAK_DEST}/share/licenses/wolf-shaper",
-                "install -Dm644 org.freedesktop.LinuxAudio.Plugins.WolfShaper.metainfo.xml -t ${FLATPAK_DEST}/share/metainfo",
-                "appstream-compose --basename=org.freedesktop.LinuxAudio.Plugins.WolfShaper --prefix=${FLATPAK_DEST} --origin=flatpak org.freedesktop.LinuxAudio.Plugins.WolfShaper"
+                "install -Dm644 org.freedesktop.LinuxAudio.Plugins.WolfShaper.metainfo.xml -t ${FLATPAK_DEST}/share/metainfo"
             ],
             "sources": [
                 {
